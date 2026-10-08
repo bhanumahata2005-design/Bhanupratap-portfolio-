@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Bhanupratap Mahata — 3D Animator portfolio">
+<title>BHANUPRATAP MAHATA — 3D Animator</title>
+<style>
+:root{--bg:#060606;--panel:#0d0d0d;--red:#e11d2e;--red2:#ff3b4d;--text:#f4f4f4;--muted:#9a9a9a;--line:#252525}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:Inter,Arial,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;background:radial-gradient(circle at 80% 8%,rgba(225,29,46,.15),transparent 28%),linear-gradient(180deg,#090909,#050505)}
+a{color:inherit;text-decoration:none}.wrap{width:min(1160px,92%);margin:auto}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+.logo{font-weight:900;letter-spacing:3px;font-size:17px}.logo i{color:var(--red);font-style:normal}
+.navlinks{display:flex;gap:27px;font-size:11px;text-transform:uppercase;letter-spacing:2px;color:#aaa}
+.navlinks a:hover{color:#fff}
+.hero{min-height:calc(100vh - 76px);display:grid;grid-template-columns:1.25fr .75fr;align-items:center;gap:30px;padding:70px 0}
+.kicker,.eyebrow{color:var(--red2);font-size:11px;letter-spacing:4px;text-transform:uppercase;font-weight:800}
+.kicker{margin-bottom:22px}
+h1{font-size:clamp(52px,9vw,112px);line-height:.86;letter-spacing:-5px;font-weight:950}
+.outline{color:transparent;-webkit-text-stroke:1px #777}
+.hero p{max-width:600px;color:#b8b8b8;font-size:16px;line-height:1.75;margin:28px 0}
+.cta{display:flex;gap:12px;flex-wrap:wrap}.btn{padding:14px 21px;border:1px solid #444;font-size:11px;font-weight:800;letter-spacing:2px;text-transform:uppercase;transition:.25s}
+.btn.primary{background:var(--red);border-color:var(--red)}.btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px #000}
+.signal{height:350px;display:grid;place-items:center;position:relative}.signal:before{content:"";position:absolute;width:290px;height:190px;border-radius:50%;background:radial-gradient(ellipse,rgba(225,29,46,.4),rgba(225,29,46,.04) 55%,transparent 72%);filter:blur(6px)}
+.bat{font-size:112px;transform:scaleX(1.35);filter:drop-shadow(0 0 20px rgba(225,29,46,.45))}
+section{padding:100px 0;border-top:1px solid var(--line)}.sectiontitle{font-size:clamp(34px,5vw,62px);text-transform:uppercase;letter-spacing:-2px;margin:12px 0 40px}
+.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:55px}.aboutgrid p{color:#aaa;line-height:1.9;font-size:16px}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.fact{background:#0b0b0b;padding:24px}.fact b{display:block;font-size:10px;color:#666;text-transform:uppercase;letter-spacing:2px;margin-bottom:8px}.fact span{font-size:14px}
+.skills{display:flex;flex-wrap:wrap;gap:9px}.skill{border:1px solid #333;background:#0c0c0c;padding:13px 16px;font-size:11px;letter-spacing:1px;text-transform:uppercase}.skill:hover{border-color:var(--red)}
+.experience{display:grid;grid-template-columns:180px 1fr;gap:35px}.year{color:var(--red);font-weight:900;letter-spacing:2px}.role{font-size:30px;text-transform:uppercase;margin-bottom:7px}.company{color:#aaa;margin-bottom:18px}.line{height:1px;background:#252525;margin:24px 0}
+.showreel{border:1px solid #333;background:linear-gradient(135deg,#111,#080808);padding:30px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.showreel h3{font-size:24px;text-transform:uppercase}.play{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;background:var(--red)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:40px}.contact h2{font-size:clamp(40px,7vw,80px);line-height:.9;text-transform:uppercase;letter-spacing:-4px}
+.contactlist{display:grid;gap:18px;align-content:center}.contactitem{border-bottom:1px solid #292929;padding:15px 0}.contactitem small{display:block;color:#666;text-transform:uppercase;letter-spacing:2px;font-size:10px;margin-bottom:6px}
+footer{padding:28px 0;border-top:1px solid var(--line);color:#666;font-size:10px;letter-spacing:1px;display:flex;justify-content:space-between}
+.reveal{opacity:0;transform:translateY(20px);transition:.7s}.reveal.on{opacity:1;transform:none}
+@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding:55px 0}.signal{height:170px;order:-1}.bat{font-size:78px}h1{letter-spacing:-3px}.aboutgrid,.contact{grid-template-columns:1fr}.experience{grid-template-columns:1fr;gap:12px}.facts{grid-template-columns:1fr}section{padding:72px 0}}
+</style>
+</head>
+<body><div class="wrap">
+<nav><a class="logo" href="#">BHANU<i>.</i>MAHATA</a><div class="navlinks"><a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#contact">Contact</a></div></nav>
+<section class="hero">
+<div class="reveal"><div class="kicker">3D Animator • Shot Finaling • Visual Storytelling</div><h1>BHANU<br><span class="outline">PRATAP</span><br>MAHATA</h1><p>Creative and detail-oriented 3D Animator focused on character animation, shot finaling, visual storytelling and cinematic presentation.</p><div class="cta"><a class="btn primary" href="https://youtu.be/MNpy6Z4UTz0" target="_blank">Watch Showreel ↗</a><a class="btn" href="#contact">Hire / Contact</a></div></div>
+<div class="signal reveal"><div class="bat">🦇</div></div>
+</section>
+<section id="about"><div class="eyebrow">01 / Profile</div><div class="sectiontitle">Behind the work</div><div class="aboutgrid"><div class="reveal"><p>I am a 3D Animator trained in animation and design, with professional experience in shot finaling at Cosmos Maya India Pvt. Ltd. I enjoy turning ideas into clean, expressive and visually strong shots for films, games and digital media.</p></div><div class="facts reveal"><div class="fact"><b>Location</b><span>Midnapore, India</span></div><div class="fact"><b>Languages</b><span>English · Bengali · Hindi</span></div><div class="fact"><b>Education</b><span>Diploma in 3D Animation &amp; Design</span></div><div class="fact"><b>Institute</b><span>Moople Institute of Animation &amp; Design</span></div></div></div></section>
+<section id="skills"><div class="eyebrow">02 / Arsenal</div><div class="sectiontitle">Skills &amp; tools</div><div class="skills reveal"><span class="skill">3D Animation</span><span class="skill">Character Acting</span><span class="skill">3D Shot Finaling</span><span class="skill">3D Modeling</span><span class="skill">3D Lighting</span><span class="skill">Hard Surface Design</span><span class="skill">Product Design</span><span class="skill">Poster Design</span><span class="skill">Autodesk Maya</span><span class="skill">Blender</span><span class="skill">Substance Painter</span><span class="skill">After Effects</span><span class="skill">Photoshop</span><span class="skill">DaVinci Resolve</span></div></section>
+<section id="work"><div class="eyebrow">03 / Experience</div><div class="sectiontitle">Field record</div><div class="experience reveal"><div class="year">PROFESSIONAL</div><div><div class="role">Jr. Shot Finaling Artist</div><div class="company">Cosmos Maya India Pvt. Ltd.</div><p style="color:#999;line-height:1.8">Worked on 3D shot finaling with a focus on animation presentation, camera movement, lighting and rendering workflows.</p><div class="line"></div><div class="showreel"><div><h3>Showreel</h3><p style="color:#777;margin-top:6px">Selected animation work</p></div><a class="play" href="https://youtu.be/MNpy6Z4UTz0" target="_blank">▶</a></div></div></div></section>
+<section id="contact"><div class="eyebrow">04 / Signal</div><div class="contact"><h2>Let's make<br>something<br><span style="color:var(--red)">legendary.</span></h2><div class="contactlist reveal"><div class="contactitem"><small>Email</small><a href="mailto:bhanupratapmahata@gmail.com">bhanupratapmahata@gmail.com</a></div><div class="contactitem"><small>Phone</small><a href="tel:+919883183385">+91 9883183385</a></div><div class="contactitem"><small>Showreel</small><a href="https://youtu.be/MNpy6Z4UTz0" target="_blank">YouTube / Showreel ↗</a></div></div></div></section>
+<footer><span>© 2026 BHANUPRATAP MAHATA</span><span>BUILT FOR THE NEXT SHOT.</span></footer>
+</div>
+<script>const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('on')}),{threshold:.12});document.querySelectorAll('.reveal').forEach(x=>io.observe(x));</script>
+</body></html>
